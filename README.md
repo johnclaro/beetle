@@ -36,3 +36,10 @@ load_default_connections = False
 default_ui_timezone = Europe/Dublin
 default_timezone = Europe/Dublin
 ```
+
+## Lightsail
+
+```console
+export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+airflow webserver -p 8080 -D && airflow scheduler -D
+```
